@@ -30,7 +30,7 @@ tag App
 				<h2.loading> "Loading, please wait..."
 			<footer>
 					<span> "Made by "
-					<a href="https://github.com/scanf"> "scanf"
+					<a href="https://github.com/scanf"> "Alexander Alemayhu"
 					<br>
 					<span> 
 						"Built with"

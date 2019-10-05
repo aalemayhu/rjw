@@ -3,6 +3,7 @@ body {
     height: 100vh;
     width: 100vw;
     font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2vh;
 }
 
 .vbox {
@@ -18,11 +19,10 @@ body {
 .new {
     padding: 1rem;
     margin-top: 1rem;
-    /* border: 3px solid green; */
     border-radius: 3px;
     min-width: 200px;
-    font-weight: 900;
     background: #d5f1f9;
+    font-size: 2rem;
 }
 
 .new:hover {

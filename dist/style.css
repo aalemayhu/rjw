@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.vbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #636e72;
+    color: white;
+}
+
+.new {
+    padding: 1rem;
+    margin-top: 1rem;
+    /* border: 3px solid green; */
+    border-radius: 3px;
+    min-width: 200px;
+    font-weight: 900;
+}
+
+.new:hover {
+    background: #0984e3;
+    border: 3px solid transparent;
+    color: white;
+    transition-property: background;
+    transition-duration: 1s;
+}
+
+.kana {
+    font-size: 4rem;
+}
+
+
+footer {
+    margin-top: 1rem;
+    border-top: 1px solid gray;
+    width: 100%;
+    text-align: center;
+    padding-top: 1rem;
+    border-top-width: 1px;
+}

@@ -22,7 +22,7 @@ tag App
 		<self.vbox>
 			<h1.title> "Random Japanese Word"
 			if data and data:length > 0
-				<h2> currentWord ? "{currentWord:kanji}" : "..."
+				<h2> currentWord:kanji ? "{currentWord:kanji}" : "..."
 				<h2.kana lang="ja"> "{currentWord:kana}"
 				<h3.english> "{currentWord:english}"
 				<button.new :tap.updateIndex> "New Word"

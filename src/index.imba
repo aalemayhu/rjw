@@ -1,10 +1,16 @@
 tag App
 	prop index default: 0
-	def setup
+	def setup		
 		data = await getJapaneseWords()
 		updateIndex
 		Imba.commit
-		
+
+		const sw = window:navigator:serviceWorker
+
+		sw.register('/sw.js') do
+			console.log "Registered"
+
+
 	def updateIndex
 		index = Math.floor(Math.random() * data:length)
 	

@@ -54,3 +54,8 @@ a {
 a:hover, a:active {
     color: #DCC6E0;
 }
+
+noscript {
+    color: white;
+    text-align: center;
+}

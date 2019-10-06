@@ -18,7 +18,7 @@ $ yarn run dev
 Run Webpack in watch-mode to continually compile the JavaScript as you work:
 
 ```
-$ npm run watch
+$ yarn run watch
 ```
 
 ## LICENSE

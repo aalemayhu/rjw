@@ -46,3 +46,11 @@ footer {
     padding-top: 1rem;
     border-top-width: 1px;
 }
+
+a {
+    color: #00e0e0;
+}
+
+a:hover, a:active {
+    color: #DCC6E0;
+}

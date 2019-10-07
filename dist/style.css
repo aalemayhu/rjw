@@ -8,15 +8,14 @@ body {
 }
 
 .vbox {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-items: center;
+    display: grid;
     height: 100vh;
     color: white;
 }
 
 .new {
+    align-self: end;
     padding: 1rem;
     margin-top: 1rem;
     border-radius: 3px;
@@ -36,6 +35,7 @@ body {
 
 .kana {
     font-size: 4rem;
+    justify-self: center;
 }
 
 

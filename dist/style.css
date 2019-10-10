@@ -9,21 +9,21 @@ body {
 
 
 .vbox {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-items: center;
+    display: grid;
     height: 100vh;
     color: white;
 }
 
 .new {
+    align-self: end;
     padding: 1rem;
     margin-top: 1rem;
     border-radius: 3px;
     min-width: 200px;
     background: #d5f1f9;
     font-size: 2rem;
+    border: 3px solid transparent;
 }
 
 .new:hover {
@@ -36,6 +36,7 @@ body {
 
 .kana {
     font-size: 4rem;
+    justify-self: center;
 }
 
 .kana, .kanji {

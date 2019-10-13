@@ -30,7 +30,6 @@ body {
     background: #0984e3;
     border: 3px solid transparent;
     color: white;
-    transition-property: background;
     transition-duration: 1s;
 }
 
@@ -64,4 +63,22 @@ a:hover, a:active {
 noscript {
     color: white;
     text-align: center;
+}
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .kana {
+        font-size: 3rem;
+    }
+
+    .new {
+        padding: 0px;
+    }
+
+    footer {
+        display: none;
+    }
 }

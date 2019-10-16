@@ -1,12 +1,20 @@
+import Word from './Word'
+
 tag App
 	prop index default: 0
+	prop currentWord default: {}
+
 	def setup
 		data = await getJapaneseWords()
 		updateIndex
 		Imba.commit
 		
 	def updateIndex
-		index = Math.floor(Math.random() * data:length)
+		index = Math.floor(Math.random() * data:length)		
+		currentWord = data[index]
+
+		console.log "currentWord",currentWord
+		Imba.commit
 	
 	def getJapaneseWords
 		const url = "https://api.sheety.co/254c026b-d500-458b-9e57-1e3182f56339"
@@ -14,20 +22,11 @@ tag App
 		const data = await request.json()
 		data
 
-	def currentWord
-		if data and data:length > 0
-			data[index]		
-
 	def render
 		<self.vbox>
 			<h1.title> "Random Japanese Word"
-			if data and data:length > 0
-				<h2> currentWord:kanji ? "{currentWord:kanji}" : "..."
-				<h2.kana lang="ja"> "{currentWord:kana}"
-				<h3.english> "{currentWord:english}"
-				<button.new :tap.updateIndex> "New Word"
-			else
-				<h2.loading> "Loading, please wait..."
+			<Word[currentWord]>
+			<button.new :tap.updateIndex> "New Word"
 			<footer>
 					<span> "Made by "
 					<a href="https://github.com/scanf"> "Alexander Alemayhu"

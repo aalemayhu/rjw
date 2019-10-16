@@ -33,7 +33,7 @@ body {
     transition-duration: 1s;
 }
 
-.kana {
+.kana, ruby {
     font-size: 4rem;
     justify-self: center;
 }

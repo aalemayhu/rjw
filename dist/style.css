@@ -10,9 +10,11 @@ body {
 
 .vbox {
     justify-items: center;
+    align-items: center;
     display: grid;
     height: 100vh;
     color: white;
+    grid-template: repeat(4, 1fr)/ 1fr;    
 }
 
 .new {

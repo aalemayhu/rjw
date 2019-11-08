@@ -27,7 +27,7 @@ body {
 }
 
 .new:hover {
-    background: #0984e3;
+    background: #0984e3;    
     border: 3px solid transparent;
     color: white;
     transition-duration: 1s;

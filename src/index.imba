@@ -2,7 +2,7 @@ import Word from './Word'
 
 tag App
 	prop index default: 0
-	prop currentWord default: {}
+	prop currentWord default: {_: "Loading please wait"}
 
 	def setup
 		data = await getJapaneseWords()

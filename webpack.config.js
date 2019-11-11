@@ -18,6 +18,6 @@ module.exports = {
     ]
   },
   "entry": {
-    "index": "./src/index"
+    "index": "./src/index.imba"
   }
 };

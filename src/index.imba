@@ -6,7 +6,6 @@ tag App
 	    margin: 0;
 	    height: 100vh;
 	    width: 100vw;
-	    font-family: 'Source Sans Pro', sans-serif;
 	    font-size: 1rem;
 	    background: #383838;
 	}

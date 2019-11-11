@@ -23,13 +23,5 @@ export tag Word
     justify-self: center;
 }
 
-.kana, .kanji {
-    font-family: 'Sawarabi Mincho', sans-serif;
-}
-@media (max-width: 500px) {
-    .kana {
-        font-size: 3rem;
-    }
-}
 ###
 

@@ -1,4 +1,4 @@
-# rjw [![Netlify Status](https://api.netlify.com/api/v1/badges/75263feb-bf82-45f0-9a4f-a0cc9493d337/deploy-status)](https://app.netlify.com/sites/affectionate-ardinghelli-67d56c/deploys)
+# rjw [![Netlify Status](https://api.netlify.com/api/v1/badges/75263feb-bf82-45f0-9a4f-a0cc9493d337/deploy-status)](https://app.netlify.com/sites/affectionate-ardinghelli-67d56c/deploys) [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/W7W6QZNY)
 
 This is a small website for displaying random Japanese words, where the kana is
 in bigger font so I can practice writing random words.
